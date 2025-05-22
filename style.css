@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #colorButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #hoverParagraph {
+    padding: 10px;
+    border: 1px solid #aaa;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #hoverParagraph.hovered {
+    background-color: #cceeff;
+  }
+  
+  .slideshow-container img {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .slideshow-container img.animate {
+    transform: scale(1.05);
+  }
+  
+  .tabs {
+    margin-top: 20px;
+  }
+  
+  .tablink {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .tablink.active {
+    background-color: #fff;
+    border-bottom: 2px solid #2196F3;
+  }
+  
+  .tabcontent {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 5px 5px 5px;
+    margin-top: -5px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input {
+    padding: 8px;
+    width: 300px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  form input.invalid {
+    border: 2px solid red;
+  }
+  
+  form input.valid {
+    border: 2px solid green;
+  }
+  
+  #formMessage {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
